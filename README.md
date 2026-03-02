@@ -5,41 +5,40 @@
 [![Cloud](https://img.shields.io/badge/Cloud-Azure%20%26%20Firebase-orange.svg)](#)
 
 ### 📝 Description
-A sophisticated note-taking application inspired by Evernote, built using **WPF (Windows Presentation Foundation)**. This project demonstrates advanced desktop development techniques, focusing on a clean User Interface and seamless integration with **Cloud-based services** for authentication and data storage.
+A sophisticated note-taking application inspired by Evernote, built using **WPF (Windows Presentation Foundation)**. This project demonstrates advanced desktop development techniques, focusing on a clean User Interface, **MVVM pattern**, and seamless integration with **Cloud-based services** and **AI Speech APIs**.
 
 ---
 
 ### ✨ App Features
 * **Advanced Note Management:** Create, organize, and manage complex notes with ease.
 * **Rich Text Editing:** Integrated tools for formatting and styling your content.
+* **Speech to Text:** Converting input audio to text using **Speech Recognition** technology.
 * **Dynamic UI:** A responsive and modern interface designed for a smooth user experience.
 * **Cloud Integration:** Scalable backend support leveraging industry-leading cloud providers.
 
 ### 🛠️ Code Features
-* **MVVM Pattern:** Strictly following the **Model-View-ViewModel** architecture to ensure clean separation of concerns and testability.
+* **MVVM Architecture:** Strictly following the **Model-View-ViewModel** pattern for clean separation of concerns.
 * **Cloud Authentication:** Implementing secure user login and registration using **Google Firebase**.
 * **Cloud Storage:** Utilizing **Microsoft Azure** for robust and reliable data persistence.
-* **Object-Oriented Design:** Applying **SOLID principles** to maintain a clean and extensible codebase.
-
-### 💻 Tech Stack
-* **Language:** C#
-* **UI Framework:** WPF (.NET)
-* **Design Pattern:** MVVM
-* **Backend/Auth:** Google Firebase
-* **Database/Storage:** Microsoft Azure
+* **Cognitive Services:** Integration with **Azure Speech API** for real-time voice-to-text conversion.
+* **Object-Oriented Design:** Applying **SOLID principles** to maintain an extensible codebase.
 
 ---
 
-### ⚠️ Note for Usage
-For security purposes, the cloud configurations have been omitted. To run this application locally, you must:
-1. Create your own account and project on **Microsoft Azure**.
-2. Create your own project on **Google Firebase**.
-3. Update the configuration keys in the source code with your personal credentials.
+### ⚠️ Note for Usage & Security
+For security purposes, the cloud configurations have been omitted. To run this application locally, you must provide your own credentials:
+
+1. **Azure Storage:** Copy your *Azure Connection String*, *Container Name*, and *Storage Blob Link* and paste them in `Database/AzureStorageHelper.cs`.
+2. **Speech Recognition:** Copy your own *Azure Speech Recognition Region* and *API Key* and paste them in the `Speech()` method in `ViewModel/NotesVM/NotesVM.cs`.
+3. **Firebase Database:** Copy your *Firebase database link* and paste it in `Database/DatabaseHelper.cs`.
+4. **Firebase Auth:** Copy your *Firebase Authentication API Key* and paste it in `Database/FirebaseAuthHelper.cs`.
+
+---
 
 ### 🚀 Getting Started
 1. Clone the repository.
 2. Open the solution in **Visual Studio**.
-3. Configure your **Azure** and **Firebase** settings.
+3. Apply the security configurations mentioned above.
 4. Build and run the application.
 
 ---
