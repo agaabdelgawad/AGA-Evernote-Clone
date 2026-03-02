@@ -54,6 +54,7 @@ For security purposes, the cloud configurations have been omitted. To run this a
 
 ### 🤝 Connect with Me
 * [LinkedIn](https://linkedin.com/in/agaabdelgawad)
+* [YouTube Channel](https://youtube.com/c/AhmedGamalAbdelGawad)
 * [GitHub Profile](https://github.com/agaabdelgawad)
 
 ---
