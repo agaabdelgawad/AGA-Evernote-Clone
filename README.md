@@ -53,6 +53,8 @@ For security purposes, the cloud configurations have been omitted. To run this a
 ---
 
 ### 🤝 Connect with Me
+If you're interested in Software Engineering, BIM Automation, or AEC Informatics, let's connect:
+
 * [LinkedIn](https://linkedin.com/in/agaabdelgawad)
 * [YouTube Channel](https://youtube.com/c/AhmedGamalAbdelGawad)
 * [GitHub Profile](https://github.com/agaabdelgawad)
