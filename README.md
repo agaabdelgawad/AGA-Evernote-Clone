@@ -2,7 +2,8 @@
 
 [![Framework](https://img.shields.io/badge/Framework-WPF-blue.svg)](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/)
 [![Architecture](https://img.shields.io/badge/Pattern-MVVM-green.svg)](https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm)
-[![Cloud](https://img.shields.io/badge/Cloud-Azure%20%26%20Firebase-orange.svg)](#)
+[![Azure](https://img.shields.io/badge/Cloud-Azure-0089D6?style=flat&logo=microsoft-azure&logoColor=white)](https://azure.microsoft.com/)
+[![Firebase](https://img.shields.io/badge/Cloud-Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
 
 ### 📝 Description
 A sophisticated note-taking application inspired by Evernote, built using **WPF (Windows Presentation Foundation)**. This project demonstrates advanced desktop development techniques, focusing on a clean User Interface, **MVVM pattern**, and seamless integration with **Cloud-based services** and **AI Speech APIs**.
