@@ -23,6 +23,14 @@ A sophisticated note-taking application inspired by Evernote, built using **WPF 
 * **Cognitive Services:** Integration with **Azure Speech API** for real-time voice-to-text conversion.
 * **Object-Oriented Design:** Applying **SOLID principles** to maintain an extensible codebase.
 
+### 💻 Tech Stack
+* **Language:** C#
+* **UI Framework:** WPF (.NET Framework / .NET)
+* **Design Pattern:** MVVM
+* **Backend/Auth:** Google Firebase
+* **Database/Storage:** Microsoft Azure
+* **AI Services:** Azure Cognitive Services (Speech SDK)
+
 ---
 
 ### ⚠️ Note for Usage & Security
