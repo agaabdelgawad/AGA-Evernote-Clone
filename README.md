@@ -1,23 +1,52 @@
-# AGA-Evernote-Clone
-WPF Application as cloning to Evernote application for creating notebooks and notes.
+# AGA-Evernote-Clone 📝
 
-### App Features
-* Creating your account on the app.
-* Synchronizing notebooks and notes with the server.
-* Saving notes locally as a word document.
-* Converting input audio to text "Speech Recognition".
+[![Framework](https://img.shields.io/badge/Framework-WPF-blue.svg)](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/)
+[![Architecture](https://img.shields.io/badge/Pattern-MVVM-green.svg)](https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm)
+[![Cloud](https://img.shields.io/badge/Cloud-Azure%20%26%20Firebase-orange.svg)](#)
 
-### Code Features
-* MVVM pattern.
-* No code-behind.
-* Code Readability
-* Responsive UI.
-* Explicit styles in Xaml.
-* Bindable RichTextBox.
+### 📝 Description
+A sophisticated note-taking application inspired by Evernote, built using **WPF (Windows Presentation Foundation)**. This project demonstrates advanced desktop development techniques, focusing on a clean User Interface and seamless integration with **Cloud-based services** for authentication and data storage.
 
-### Note for usage
-#### For security purposes, you have to create your own accounts in both Microsoft Azure and Google Firebase:
-* Copy your Azure Connection String, Container Name and the Storage Blob Link and paste them in Database/AzureStorageHelper.cs.
-* Copy your own Azure Speech Recognition Region and API Key and paste them in Speech() method in ViewModel/NotesVM/NotesVM.cs.
-* Copy your Firebase database link and paste it in Database/DatabaseHelper.cs.
-* Copy your Firebase Authentication API Key and paste it in Database/FirebaseAuthHelper.cs.
+---
+
+### ✨ App Features
+* **Advanced Note Management:** Create, organize, and manage complex notes with ease.
+* **Rich Text Editing:** Integrated tools for formatting and styling your content.
+* **Dynamic UI:** A responsive and modern interface designed for a smooth user experience.
+* **Cloud Integration:** Scalable backend support leveraging industry-leading cloud providers.
+
+### 🛠️ Code Features
+* **MVVM Pattern:** Strictly following the **Model-View-ViewModel** architecture to ensure clean separation of concerns and testability.
+* **Cloud Authentication:** Implementing secure user login and registration using **Google Firebase**.
+* **Cloud Storage:** Utilizing **Microsoft Azure** for robust and reliable data persistence.
+* **Object-Oriented Design:** Applying **SOLID principles** to maintain a clean and extensible codebase.
+
+### 💻 Tech Stack
+* **Language:** C#
+* **UI Framework:** WPF (.NET)
+* **Design Pattern:** MVVM
+* **Backend/Auth:** Google Firebase
+* **Database/Storage:** Microsoft Azure
+
+---
+
+### ⚠️ Note for Usage
+For security purposes, the cloud configurations have been omitted. To run this application locally, you must:
+1. Create your own account and project on **Microsoft Azure**.
+2. Create your own project on **Google Firebase**.
+3. Update the configuration keys in the source code with your personal credentials.
+
+### 🚀 Getting Started
+1. Clone the repository.
+2. Open the solution in **Visual Studio**.
+3. Configure your **Azure** and **Firebase** settings.
+4. Build and run the application.
+
+---
+
+### 🤝 Connect with Me
+* [LinkedIn](https://linkedin.com/in/agaabdelgawad)
+* [GitHub Profile](https://github.com/agaabdelgawad)
+
+---
+*If you find this project useful for learning WPF/MVVM, feel free to give it a ⭐!*
