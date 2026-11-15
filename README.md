@@ -53,11 +53,11 @@ For security purposes, the cloud configurations have been omitted. To run this a
 ---
 
 ### 🤝 Connect with Me
-If you're interested in Software Engineering, BIM Automation, or AEC Informatics, let's connect:
+If you're interested in Software Engineering, Backend Architecture, or AEC Informatics, let's connect:
 
-* [LinkedIn](https://linkedin.com/in/agaabdelgawad)
-* [YouTube Channel](https://youtube.com/@agaabdelgawad)
-* [GitHub Profile](https://github.com/agaabdelgawad)
+- [LinkedIn](https://linkedin.com/in/agaabdelgawad)
+- [YouTube Channel](https://youtube.com/@agaabdelgawad)
+- [GitHub Profile](https://github.com/agaabdelgawad)
 
 ---
-*If you find this project useful for learning WPF/MVVM, feel free to give it a ⭐!*
+*If you found this project interesting or helpful, feel free to give it a ⭐!*
